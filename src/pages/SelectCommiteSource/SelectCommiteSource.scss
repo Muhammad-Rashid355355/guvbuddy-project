@@ -1,0 +1,705 @@
+@import '../../utilities.scss';
+.select_source_heading{
+    min-height: 50px;
+    align-items: center;
+}
+.select_text{
+    margin-top: 20px;
+    font-family: $font_family;
+    font-size: 1.3vw;
+    color: $header_petter_text_color;
+    font-style: normal;
+    font-weight: normal;
+    // font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* black color */
+    
+    color: #000000;
+}
+.Sheety_before_dropdown_text{
+font-family: $font_family;
+font-style: normal;
+font-weight: 500;
+font-size: 0.9vw;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* black color */
+
+color: #000000;
+}
+.Last_activity_text{
+     font-family: $font_family  !important;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+/* black color */
+
+color: #000000;
+}
+.first_main_row{
+    align-items: center;
+    min-height: 70px !important;
+}
+.ant-radio-inner{
+    border-color: $main_text_color !important;
+}
+.ant-radio-inner::after  {
+    background-color: $main_text_color !important;
+}
+.ant-dropdown-link{
+    // border-bottom: 1.5px solid $main_text_color !important ;
+    // background-color: $input_background_color!important;
+    margin-top: -15px !important;
+    margin-left: 17px !important;
+    border-radius: 2px !important;
+    width: 17vw;
+    color: $main_text_color !important;
+    padding-left: 10px !important;
+    font-family: $font_family !important;
+    background: #FFFAFB;
+box-shadow: 0px 1px 0px #EF3F42;
+}
+.ant_dropdown{
+    font-family: $font_family_roboto !important;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8vw;
+line-height: 16px;
+
+/* g3 */
+
+color: #959594;
+
+}
+.ant-dropdown-menu {
+    border-radius: 10px !important;
+    font-family: $font_family !important;
+    background-color: #FFFFF0;
+}
+.Pattersin_Jim{
+    font-family: $font_family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8vw;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* acent color */
+    
+    color: #EF3F42;
+    
+}
+.sheety_dropdown_text{
+    font-family: $font_family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8vw;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* acent color */
+    
+    color: #EF3F42;
+}
+.anticon svg {
+    display: inline-block;
+    margin-left: 9vw;
+    margin-top: 14px;
+}
+.ant-dropdown-menu-item-divider{
+    display: none !important;   
+}
+.first_row_second_col{
+    margin-left: 17px !important;
+}
+.first_row_third_col{
+    margin-left: 17px !important;
+}
+.second_row_second_col{
+    margin-left: 17px !important;
+}
+.scrap_data_btn{
+    height: 40px !important;
+    // width: 12.3vw !important;
+    // background-color: $btn_color !important;
+    margin-left: 20px !important;
+    font-family: $font_family !important; 
+    color: #FFFFFF !important;
+     
+    background-color: #58BE9F !important;
+    font-size: 2.3vw !important;
+box-shadow: 0px 4px 4px rgba(88, 190, 159, 0.3);
+
+// border-radius: 100px;
+}
+
+.ant-btn:hover,
+ .ant-btn:focus{
+     border-color: $main_text_color !important;
+ }
+.ant-table-thead  th{
+    background-color: white !important;
+    border-bottom: 2px solid #282D3D !important;
+    // border: 1px solid #282D3D;
+   font-size: 1.2vw !important;
+   font-family: $font_family !important;
+font-style: normal;
+font-weight: 600 !important;
+line-height: 30px;
+/* identical to box height */
+
+// display: flex;
+align-items: center;
+
+/* acent color */
+
+color: #EF3F42 !important;
+
+}
+.staff_text{
+    font-style: normal;
+font-weight: normal;
+// font-size: 1vw;
+line-height: 18px;
+/* identical to box height */
+
+align-items: center;
+
+color: #27AE60;
+
+}
+.member_text{
+    // color: $member_text_color;
+    font-style: normal;
+font-weight: normal;
+// font-size: 1vw;
+line-height: 18px;
+/* identical to box height */
+
+
+align-items: center;
+
+color: #2F80ED;
+
+}
+.Employee_Name{
+    // color: $main_text_color;
+    font-family: $font_family;
+font-style: normal;
+font-weight: normal;
+font-size: 1vw;
+line-height: 21px;
+/* identical to box height */
+
+
+/* acent color */
+
+color: #EF3F42;
+
+}
+.ant-table-pagination.ant-pagination {
+    display: none;
+}
+.ant-table-wrapper{
+    min-width: 100%;
+}
+.ant-table table {
+    // background-color: $table_background_color !important;
+    background-color: #FFFAFA !important;
+
+    font-family: $font_family !important;
+    // border-radius: 20px !important;
+    text-align: start !important;
+    table-layout: auto !important;
+    // border-spacing: 0.2em !;
+font-style: normal;
+font-weight: normal;
+font-size: 1vw;
+line-height: 18px;
+/* identical to box height */
+
+
+align-items: center;
+
+/* black color */
+
+color: #000000;
+
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    // background: $input_background_color !important;
+    background-color: #FFFAFA !important;
+// box-sizing: border-box;
+}
+.ant-table-row >.ant-table-row-level-0{
+  
+    // border: 10px solid pink !important;
+border: 1px solid rgba(239, 63, 66, 0.2);
+
+    border-radius: 50px !important;
+}
+// .row_changes{
+//     border: 10px solid pink !important;
+//     border-radius: 50px !important;
+// }
+
+
+
+
+
+   
+@media only screen and (min-width:2300px) and (max-width:2652px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size: 30px;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_2300_2652 !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_2300_2652 !important;
+    }
+    // ......................size-increase.......................//
+    .ant-radio-inner{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50px !important;
+        margin-top: 1px;
+        margin-left: 1px;  
+    }
+    .scrap_data_btn{
+        height: 60px !important;
+        margin-left: 60px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 15px !important;
+        height: 60px !important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 10vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+    // .ant-table-wrapper {
+    //     min-width: 120%;
+    // }
+}
+@media only screen and (min-width:2000px) and (max-width:2300px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size:  $font_2300_2652;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_2000_2300 !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_2000_2300 !important;
+    }
+    // ......................size-increase.......................//
+    .ant-radio-inner{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50px !important;
+        margin-top: 1px;
+        margin-left: 1px;  
+    }
+    .scrap_data_btn{
+        height: 55px !important;
+        margin-left: 55px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 11px !important;
+        height: 55px !important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 9vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+    // .ant-table-wrapper {
+    //     min-width: 135%;
+    // }
+}
+@media only screen and (min-width:1700px) and (max-width:2000px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size:  $font_2000_2300;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_1700_2000 !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_1700_2000 !important;
+    }
+    // ......................size-increase.......................//
+    .ant-radio-inner{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50px !important;
+        margin-top: 1px;
+        margin-left: 1px;    
+    }
+    .scrap_data_btn{
+        height: 50px !important;
+        margin-left: 50px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 9px !important;
+        height: 50px !important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 9vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+}
+@media only screen and (min-width:1400px) and (max-width:1700px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size: $font_1700_2000;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_1400_1700 !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_1400_1700 !important;
+    }
+    // ......................size-increase.......................//
+    .ant-radio-inner{
+        width: 16px !important;
+        height: 16px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50px !important;
+        margin-top: -1px;
+        margin-left: -1px;   
+    }
+    .scrap_data_btn{
+        height: 45px !important;
+        margin-left: 40px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 3px !important;
+        height: 45px !important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 8.8vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size: $font_1400_1700;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_1200_1400 !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_1200_1400 !important;
+    }
+    // ......................size-increase.......................//
+    .first_row_second_col{
+        margin-left: 10px !important;
+    }
+    .first_row_third_col{
+        margin-left: 10px !important;
+    }
+    .second_row_second_col{
+        margin-left: 10px !important;
+    }
+    .ant-radio-inner{
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 7px !important;
+        height: 7px !important;
+        border-radius: 50px !important;
+        margin-top: -1px;
+        margin-left: -1px;   
+    }
+    .scrap_data_btn{
+        height: 40px !important;
+        margin-left: 30px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        // padding-top: -10px !important;
+        height: 40px !important;
+    }
+    .ant_dropdown{
+        padding-top: -10px !important
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 8vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+  
+}
+@media only screen and (min-width:1100px) and (max-width:1200px){
+    // ....................Font-increase.................//
+    // .select_text,.Last_activity_text{
+    //     font-size: $font_1400_1700;
+    // }
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size:  $font_1200_1400  !important;
+    }
+    .ant-table-thead  th{
+        // font-size:  $font_1200_1400 !important;
+    }
+    // ......................size-increase.......................//
+    .first_row_second_col{
+        margin-left: 6px !important;
+    }
+    .first_row_third_col{
+        margin-left: 6px !important;
+    }
+    .second_row_second_col{
+        margin-left: 6px !important;
+    }
+     .ant-radio-inner{
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 7px !important;
+        height: 7px !important;
+        border-radius: 50px !important;
+        margin-top: -1px;
+        margin-left: -1px;   
+    }
+    .scrap_data_btn{
+        height: 35px !important;
+        margin-left: 20px !important;
+    }
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 0px !important;
+        height: 35px!important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 7.5vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1100px){
+    // ....................Font-increase.................//
+    
+   
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size: $font_800_1100 !important;
+    }
+    .ant-table-thead  th{
+        // font-size: $font_800_1100 !important;
+    }
+    // ......................size-increase.......................//
+     .ant-radio-inner{
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 7px !important;
+        height: 7px !important;
+        border-radius: 50px !important;
+        margin-top: -1px;
+        margin-left: -1px;   
+    }
+  
+    .ant-dropdown-link{
+        padding-left: 20px !important;
+        padding-top: 0px !important;
+        height: 35px !important;
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 6.7vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+}
+@media only screen and (min-width:740px) and (max-width:900px){
+    // ....................Font-increase.................//
+    // .select_text,
+    .Sheety_before_dropdown_text,
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-tbody tr td{
+    font-size: $font_800_1100 !important;
+    }
+    // ......................size-increase.......................//
+     .ant-radio-inner{
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 7px !important;
+        height: 7px !important;
+        border-radius: 50px !important;
+        margin-top: -1px;
+        margin-left: -1px;   
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 5vw !important;
+        // width: 20px !important;
+        // height: 20px !important; 
+    }
+   
+}
+@media only screen and (min-width:740px) and (max-width:750px){
+    .first_row_third_col{
+        margin-left: 10px !important;
+    }
+}
+
+@media only screen and (min-width:690px) and (max-width:740px){
+    // ....................Font-increase.................//
+    // .select_text,
+    .Sheety_before_dropdown_text,
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-thead tr th{
+    font-size: $font_800_1100 !important;
+    }
+    // ......................size-increase.......................//
+    .first_row_second_col{
+        margin-left: 10px !important;
+    }
+    .first_row_third_col{
+        margin-left: 10px !important;
+    }
+     .ant-radio-inner{
+        width: 11px !important;
+        height: 11px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 5px !important;
+        height: 5px !important;
+        border-radius: 50px !important;
+        margin-top: -0.1vw;
+        margin-left: -0.17vw;   
+    }
+    .scrap_data_btn{
+        margin-left: 0px !important;   
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 8vw !important;
+        
+    }
+}
+@media only screen and (min-width:600px) and (max-width:690px){
+    // ....................Font-increase.................//
+    // .select_text,
+    .Sheety_before_dropdown_text,
+    .ant-dropdown-link,
+    .ant-dropdown-menu,
+    .scrap_data_btn,
+    .ant-table table,
+    .ant-table-thead tr th{
+    font-size: $font_800_1100 !important;
+    }
+    // ......................size-increase.......................//
+    .first_row_second_col{
+        margin-left: 5px !important;
+    }
+    .first_row_third_col{
+        margin-left: 5px !important;
+    }
+     .ant-radio-inner{
+        width: 11px !important;
+        height: 11px !important;
+    }
+    .ant-radio-inner::after  {
+        width: 5px !important;
+        height: 5px !important;
+        border-radius: 50px !important;
+        margin-top: -0.1vw;
+        margin-left: -0.17vw;  
+    }
+    .scrap_data_btn{
+        margin-left: 0px !important;   
+    }
+    .anticon svg {
+        display: inline-block;
+        margin-left: 5vw !important;
+        // width: 10px !important;
+        // height: 10px !important;  
+    }
+}
+

@@ -1,0 +1,134 @@
+@import '../../utilities.scss';
+.Header{
+min-height: 10vh; 
+background: $header_background_color;
+box-shadow: 0px 4px 8px $header_shadow_color;
+display: flex;
+align-items: center;
+}.govbudy_svg{
+  margin-left: 15px;
+}
+.ant-col{
+    display: inline-block;
+}
+.Peter_Parker{    
+  font-family: $font_family;
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: $header_petter_text_color;
+}
+.header-img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+}
+@media only screen and (min-width:2290px) and (max-width:2652px){
+  .Peter_Parker{   
+      margin-left: -100px !important;  
+    }
+    .Header{
+      min-height: 20vh !important;
+    }
+    .header-img{
+      width: 80px;
+      height: 80px;
+    }
+  }
+@media only screen and (min-width:1700px) and (max-width:2290px){
+  .Header{
+    height: 13vh;
+  }
+  .Peter_Parker{   
+      margin-left: -100px !important;  
+    }
+    .header-img{
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media only screen and (min-width:1600px) and (max-width:1700px){
+    .Peter_Parker{   
+        margin-left: -80px !important;  
+      }
+      .Header{
+        height: 12vh;
+      }
+      .header-img{
+        width: 55px;
+        height: 55px;
+      }
+    }
+@media only screen and (min-width:1400px) and (max-width:1600px){
+  .Peter_Parker{   
+      margin-left: 30px !important;
+    }
+    .header-img{
+     margin-left: -20px !important;
+   }
+  //  .Header{
+  //   height: 13vh;
+  // }
+   .header-img{
+    width: 50px;
+    height: 50px;
+  }
+  .Header{
+    height: 11vh;
+  }
+}
+@media only screen and (min-width:1300px) and (max-width:1400px){
+  .Peter_Parker{   
+      margin-left: 40px !important;   
+    }
+    .Header{
+      height: 10vh;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1326px){
+  .Peter_Parker{   
+      margin-left: 30px !important;  
+    }
+    .header-img{
+     margin-left: -20px !important;
+   }
+   .Header{
+    height: 9vh;
+  }
+}
+@media only screen and (min-width:1100px) and (max-width:1200px){
+  .Peter_Parker{   
+      margin-left: 20px !important;   
+    }
+    .header-img{
+     margin-left: -20px !important;
+   }
+   .Header{
+    height: 8vh;
+  }
+}
+@media only screen and (min-width:700px) and (max-width:1100px){
+  .Peter_Parker{   
+      margin-left: 20px !important;   
+    }
+  //   .header-img{
+  //    margin-left: -20px !important;
+  //  }
+  .Header{
+    height: 7vh;
+  }
+}
+@media only screen and (min-width:700px) and (max-width:770px){
+  .Peter_Parker{   
+      margin-left: 70px !important;   
+    }
+    .header-img{
+     margin-left: 45px !important;
+   }
+  .Header{
+    height: 7vh;
+  }
+}
