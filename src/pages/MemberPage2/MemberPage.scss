@@ -93,7 +93,7 @@ color: #FFFDFF !important;
     // font-family: $font_family;
 
 }
-.data_record_div{
+.data_record_div2{
     width: 95%;
     min-height: 60px;
     border-radius: 15px;
@@ -353,8 +353,8 @@ color: #FFFDFF !important;
 }
 .data_record_div2{
     width: 96.5%;
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(201, 216, 221);
+    background-color: #F5F6FF !important;
+    border: 1px solid rgb(201, 216, 221) !important;
     min-height: 60px;
     border-radius: 10px;
     margin-left: 20px;
@@ -611,10 +611,12 @@ color: #FFFDFF !important;
     
     }
     .pink_div_color_text2{
-        margin-left: 30px  !important;
+        margin-left: 5px  !important;
+        font-size: 19px !important;
+
     }
     .agri_text{
-        margin-left: 20px;
+        margin-left: 30px;
     }
    }
    @media only screen and (min-width:1300px) and (max-width:1600px){
@@ -627,7 +629,7 @@ color: #FFFDFF !important;
     .pink_div_color_text2,
     // .patterson_text,
     .pink_div_color_text1{
-        font-size: $font_1200_1400;
+        // font-size: $font_1200_1400;
     }
     .radio_input_first_row{
         width: 15px;
@@ -679,6 +681,14 @@ color: #FFFDFF !important;
         width:17%;
 
     }
+    .pink_div_color_text2{
+        margin-left: -20px  !important;
+        font-size: 17px !important;
+
+    }
+    .agri_text{
+        margin-left: 80px !important;
+    }
    
            
    }
@@ -695,7 +705,7 @@ color: #FFFDFF !important;
            margin-left: 60px;
        }
        .pink_div_color_text2{
-        margin-left: 50px;
+        margin-left: 40px !important;
     }
    }
    @media only screen and (min-width:1200px) and (max-width:1300px){
@@ -706,6 +716,8 @@ color: #FFFDFF !important;
     .pink_div_color_text2{
         margin-left: 30px;
         font-size: $font_1400_1700;
+        font-size: 15px !important;
+
     }
     .agri_text{
         margin-left: 50px;
@@ -799,11 +811,12 @@ color: #FFFDFF !important;
           margin-left: -5px;
       }
       .agri_text{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .pink_div_color_text2{
-        margin-left: 10px;
-        font-size: $font_1400_1700;
+        margin-left: 20px;
+        font-size: 13px !important;
+
     }
    }
    @media only screen and (min-width:700px) and (max-width:1000px){
@@ -847,11 +860,12 @@ color: #FFFDFF !important;
           margin-left: -5px;
       }
       .agri_text{
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .pink_div_color_text2{
-        margin-left: 20px;
-        font-size: $font_1400_1700;
+        margin-left: 30px;
+        font-size: 11px !important;
+
     }
            
    }

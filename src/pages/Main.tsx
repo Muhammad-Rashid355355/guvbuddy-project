@@ -14,6 +14,12 @@ const Main = () => {
             <Link to='/memberPage'>
                 <Button>Member-Data</Button>
             </Link>
+            <Link to='/overviewpage'>
+                <Button>overViewPage</Button>
+            </Link>
+            <Link to='/changesPages'>
+                <Button>ChangesPage</Button>
+            </Link>
             <Link to='/resultPage'>
                 <Button>Result-Page</Button>
             </Link>

@@ -1,0 +1,120 @@
+@import '../../utilities.scss';
+.heading_row{
+width: 100%;
+height: 15vh;
+font-family: $font_family;
+font-style: normal;
+font-weight: 600;
+font-size: 1.2vw;
+line-height: 30px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+
+}
+.heading_row h3{
+color: #EF3F42 !important;
+margin-top: 30px;
+}
+.first_Data_Row{  
+background: #FFFAFA;
+border: 1px solid #FFEFEF;
+box-sizing: border-box;
+border-radius: 12px;
+padding-left: 20px;
+}
+.first_Data_Row h5{
+font-size: 1vw;
+font-family: $font_family;
+font-style: normal;
+font-weight: 500;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.alexis_text{
+    text-decoration: line-through;
+}
+.hrTag{
+    width: 95%;
+    border: 1px solid #EF3F42;
+}
+.Arow_svg{
+    margin-left: 47%;
+    margin-top: 8%;
+    position: absolute;
+} 
+@media only screen and (min-width:2200px) and (max-width:2652px){
+    .heading_row{
+        height: 24vh;
+    }
+    .Arow_svg{
+        width: 50px;
+        height: 50px;
+    }
+    .courlos_pete_txt{
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width:1900px) and (max-width:2200px){
+    .heading_row{
+        height: 21vh;
+    }
+    .Arow_svg{
+        width: 45px;
+        height: 45px;
+    }
+    .courlos_pete_txt{
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width:1900px){
+    .heading_row{
+        height: 18vh;
+    }
+    .Arow_svg{
+        width: 40px;
+        height: 40px;
+    }
+    .courlos_pete_txt{
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width:1600px){
+    .heading_row{
+        height: 15vh;
+    }
+    .Arow_svg{
+        width: 35px;
+        height: 35px;
+    }
+    .courlos_pete_txt{
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1300px){
+    .heading_row{
+        height: 12vh;
+    }
+    .courlos_pete_txt{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1000px){
+    .heading_row{
+        height: 10vh;
+    }
+    .courlos_pete_txt{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1200px){
+    .Arow_svg{
+        margin-top: 7.8% !important;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1000px){
+    .Arow_svg{
+        margin-top: 7.7% !important;
+    }
+}

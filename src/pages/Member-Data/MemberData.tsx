@@ -49,7 +49,7 @@ const MemberData=()=>{
                      <Row className='sheety_div'>
                      <input type='radio' className='radio_input_first_row'/>
                           <Col className='first_pink_row_col'>
-                          <h3><span className='pink_div_color_text1'>COMMITTE:</span> </h3>
+                          <h3><span className='pink_div_color_text1'>COMMITTEE:</span> </h3>
                           <h5><span className='pink_div_color_text'>Branch</span></h5>
                           <h5><span className='pink_div_color_text'>Committee type</span></h5>
                           <h5><span className='pink_div_color_text'>Meets</span></h5>
@@ -79,7 +79,7 @@ const MemberData=()=>{
                           <svg className='drop_down_icon'  width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.5 12L0.00481036 0.749999L12.9952 0.75L6.5 12Z" fill="#2F80ED"/>
 </svg>
-                          <span className="ant_dropdown2"> Member</span> 
+                          <span className="ant_dropdown2"> MEMBER</span> 
 
                         
                      {/* <Dropdown overlay={menu} trigger={['click']}>
@@ -259,7 +259,7 @@ const MemberData=()=>{
                               <svg className='drop_down_icon'  width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.5 12L0.00481036 0.749999L12.9952 0.75L6.5 12Z" fill="#2F80ED"/>
 </svg>
-                              <span className="ant_dropdown2"> Member</span> 
+                              <span className="ant_dropdown2"> MEMBER</span> 
     
                             
                          {/* <Dropdown overlay={menu} trigger={['click']}>

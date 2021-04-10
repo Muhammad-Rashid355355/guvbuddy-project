@@ -6,8 +6,8 @@
 .govbudy_svg{
    display: inline-block;
    margin-left: 20px;
-   width: 10vw;
-   height: 10vh;
+   width: 11vw;
+   height: 11vh;
 }
 .welcome_back_Text{
 font-style: normal;
@@ -113,7 +113,17 @@ box-shadow: 0px 4px 4px rgba(236, 3, 69, 0.16);
         font-size: 28px;
     }
     .forgot_password_text{
-        padding-left: 7.8vw;
+        padding-left: 7.4vw;
+        padding-top: 10px;
+    }
+    .Remember_me_text{
+        padding-top: 5px;
+
+    }
+   
+    .check_box{
+        width: 25px;
+        height: 25px;
     }
     .Login_btn{
         height: 9vh !important;
@@ -140,6 +150,17 @@ box-shadow: 0px 4px 4px rgba(236, 3, 69, 0.16);
     }
     .forgot_password_text{
         padding-left: 7.4vw;
+        padding-top: 15px;
+    }
+    .Remember_me_text{
+        padding-top: 10px;
+
+    }
+   
+    .check_box{
+        margin-top: 15px;
+        width: 22px;
+        height: 22px;
     }
     .Login_btn{
         height: 8vh !important;
@@ -164,7 +185,18 @@ box-shadow: 0px 4px 4px rgba(236, 3, 69, 0.16);
         font-size: 24px;
     }
     .forgot_password_text{
-        padding-left: 7.2vw;
+        padding-left: 7vw;
+        padding-top: 15px;
+    }
+    .Remember_me_text{
+        padding-top: 10px;
+
+    }
+   
+    .check_box{
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
     }
     .Login_btn{
         height: 7vh !important;

@@ -7,6 +7,8 @@ import Main from './pages/Main';
 import MemberData from './pages/Member-Data/MemberData';
 import DataRecord from './pages/Data Record/DataRecord';
 import MemberPage2 from './pages/MemberPage2/MemberPage';
+import OverViewPage from './pages/overViewPage/OverViewPage';
+import ConfermChangesPage from './pages/ConfermChangesPage/ConfermChangesPage';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
           <Route exact path="/loginpage" component={LoginPage}/>
           <Route exact path="/dashboard" component={SelectSource}/>
           <Route exact path="/memberPage" component={MemberData}/>
+          <Route exact path ="/overviewpage" component={OverViewPage}/>
+          <Route exact path ="/changesPages" component={ConfermChangesPage}/>
+
           <Route exact path='/resultPage' component={DataRecord}/>
           <Route exact path='/memberpage2' component={MemberPage2}/>
         </Switch>
