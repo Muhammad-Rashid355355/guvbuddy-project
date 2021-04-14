@@ -5,7 +5,7 @@ height: 15vh;
 font-family: $font_family;
 font-style: normal;
 font-weight: 600;
-font-size: 1.2vw;
+font-size: 1.1vw;
 line-height: 30px;
 display: flex;
 align-items: center;
@@ -22,9 +22,10 @@ border: 1px solid #FFEFEF;
 box-sizing: border-box;
 border-radius: 12px;
 padding-left: 20px;
+padding-top: 15px;
 }
 .first_Data_Row h5{
-font-size: 1vw;
+font-size: 0.9vw;
 font-family: $font_family;
 font-style: normal;
 font-weight: 500;
@@ -41,7 +42,7 @@ color: #000000;
 }
 .Arow_svg{
     margin-left: 47%;
-    margin-top: 8%;
+    margin-top: 7%;
     position: absolute;
 } 
 @media only screen and (min-width:2200px) and (max-width:2652px){
@@ -110,11 +111,11 @@ color: #000000;
 }
 @media only screen and (min-width:1000px) and (max-width:1200px){
     .Arow_svg{
-        margin-top: 7.8% !important;
+        margin-top: 7% !important;
     }
 }
 @media only screen and (min-width:700px) and (max-width:1000px){
     .Arow_svg{
-        margin-top: 7.7% !important;
+        margin-top: 6.8% !important;
     }
 }

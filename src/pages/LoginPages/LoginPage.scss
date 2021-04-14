@@ -53,6 +53,9 @@ color: #000000;
     padding-left: 10px;
     color: $main_text_color;
 }
+.password_input:focus{
+   border: 1px solid black;
+}
 
 .check_box{
     margin-top: 10px;

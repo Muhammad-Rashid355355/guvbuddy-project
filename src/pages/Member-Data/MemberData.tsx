@@ -82,11 +82,7 @@ const MemberData=()=>{
                           <span className="ant_dropdown2"> MEMBER</span> 
 
                         
-                     {/* <Dropdown overlay={menu} trigger={['click']}>
-                     <a className="ant-dropdown-link2" onClick={e => e.preventDefault()}>
-                   <DownOutlined />
-                       </a>
-                        </Dropdown> */}
+                  
                 
                         </Row>
                      <Row className="data_record_div" align='middle'>
